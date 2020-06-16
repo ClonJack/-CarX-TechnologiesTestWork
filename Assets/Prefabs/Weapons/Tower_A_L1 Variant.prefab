@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &3355949727302513451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8605459643880379800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebddef33c1146ee4dbee2a0f72098ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_shootInterval: 1
+  m_range: 10
+  m_projectilePrefab: {fileID: 121420, guid: 83b1bef18dd7ed947ae8f4d857327102, type: 3}
+  monster: {fileID: 2354221449966538512, guid: 80767f9fd201dfc4eb436c7d325b00ef, type: 3}
+--- !u!1001 &8605459643880352206
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 113750, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+      propertyPath: m_Name
+      value: Tower_A_L1 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 401874, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 401874, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 401874, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 401874, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 401874, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401874, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401874, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 401874, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401874, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401874, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401874, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1920609367, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+      propertyPath: monster
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1920609367, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 7ac56bab20be57a49b715c98471c1346, type: 3}
+--- !u!1 &8605459643880379800 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 113750, guid: 7ac56bab20be57a49b715c98471c1346,
+    type: 3}
+  m_PrefabInstance: {fileID: 8605459643880352206}
+  m_PrefabAsset: {fileID: 0}
